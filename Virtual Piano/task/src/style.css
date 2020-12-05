@@ -1,0 +1,48 @@
+html{
+}
+body{
+    background-color: green;
+}
+
+kbd{
+    display: inline-block;
+    border: 1px blue solid;
+    top: 12%;
+}
+
+/*.container{*/
+/*    width: 60%;*/
+/*    margin: 10% auto;*/
+/*}*/
+
+.white-keys{
+    color: black;
+    margin-top: 20%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.white-keys kbd{
+    background-color: white;
+    height: 30%;
+    width: 50px;
+}
+
+.black-keys{
+    margin-left: auto;
+    margin-right: auto;
+    size: 30px;
+    top: 100px;
+    text-align: center;
+}
+.black-keys kbd{
+    border: 3px sandybrown solid;
+    color: aliceblue;
+
+    background-color: black;
+    height: 30%;
+    width: 50px;
+}
+
+
