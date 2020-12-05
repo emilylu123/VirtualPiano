@@ -1,48 +1,57 @@
-html{
+html {
+    height: 100%;
 }
-body{
+
+body {
+    border: 3px yellow dashed;
     background-color: green;
+    height: 90%;
+}
+
+div{
+    border: 1px aqua dashed;
+    font: 30px bolder;
+}
+
+.container {
+    vertical-align:center;
+    text-align: center;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    border: 3px coral solid;
 }
 
 kbd{
+    border: 1px deeppink dashed;
     display: inline-block;
-    border: 1px blue solid;
-    top: 12%;
-}
-
-/*.container{*/
-/*    width: 60%;*/
-/*    margin: 10% auto;*/
-/*}*/
-
-.white-keys{
-    color: black;
-    margin-top: 20%;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    height: 200px;
+    width: 50px;
+    margin: 0 0 0 -5px;
     text-align: center;
 }
-.white-keys kbd{
+
+.white-keys {
+    margin: 150px auto auto auto;
+    width: 80%;
+}
+
+.black-keys {
+    margin: -205px auto auto auto;
+    width: 80%;
+}
+
+.white-keys kbd {
     background-color: white;
-    height: 30%;
-    width: 50px;
+    vertical-align: bottom;
 }
 
-.black-keys{
-    margin-left: auto;
-    margin-right: auto;
-    size: 30px;
-    top: 100px;
-    text-align: center;
-}
-.black-keys kbd{
-    border: 3px sandybrown solid;
-    color: aliceblue;
-
+.black-keys kbd {
     background-color: black;
-    height: 30%;
-    width: 50px;
+    left: 50px;
+    color: lightyellow;
+    display: inline-block;
+    margin: 0;
+    height: 80px;
+    margin-left: 21px;
 }
-
-
